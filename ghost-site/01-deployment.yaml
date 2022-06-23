@@ -43,7 +43,7 @@ spec:
         imagePullPolicy: Always
         name: drivetester
         ports:
-        - name: http-drivetest
+        - name: http-drivetester
           containerPort: 2368
           protocol: TCP
         resources: {}
