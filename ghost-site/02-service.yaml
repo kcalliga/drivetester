@@ -24,6 +24,7 @@ spec:
   selector:
     app: drivetester
     deploymentconfig: drivetester
+    version: v1
   sessionAffinity: None
   type: ClusterIP
 status:
