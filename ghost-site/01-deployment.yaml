@@ -8,6 +8,7 @@ metadata:
     app.kubernetes.io/name: drivetester
     app.kubernetes.io/part-of: drivetester
     app.openshift.io/runtime-namespace: drivetester
+    version: 1
   name: drivetester
   namespace: drivetester
 spec:
