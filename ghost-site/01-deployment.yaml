@@ -32,6 +32,7 @@ spec:
       labels:
         app: drivetester
         deploymentconfig: drivetester
+        version: v1
     spec:
       containers:
       - env:
