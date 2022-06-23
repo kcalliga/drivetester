@@ -18,6 +18,7 @@ spec:
   selector:
     matchLabels:
       app: drivetester
+      version: v1
   strategy:
     rollingUpdate:
       maxSurge: 25%
