@@ -17,7 +17,7 @@ spec:
   - IPv4
   ipFamilyPolicy: SingleStack
   ports:
-  - name: http-drivetester
+  - name: http-drivetest
     port: 2368
     protocol: TCP
     targetPort: 2368
