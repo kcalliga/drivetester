@@ -40,7 +40,8 @@ spec:
         imagePullPolicy: Always
         name: drivetester
         ports:
-        - containerPort: 2368
+        - name: http-drivetest
+          containerPort: 2368
           protocol: TCP
         resources: {}
         terminationMessagePath: /dev/termination-log
