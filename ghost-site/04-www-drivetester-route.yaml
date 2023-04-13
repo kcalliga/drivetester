@@ -13,7 +13,7 @@ metadata:
 spec:
   host: www.drivetester.us
   port:
-    targetPort: http-drivetest
+    targetPort: 2368-tcp
   to:
     kind: Service
     name: drivetester
