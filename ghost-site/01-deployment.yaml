@@ -39,7 +39,7 @@ spec:
       - env:
         - name: url
           value: https://drivetester.us
-        image: ghost:5.8.2
+        image: ghost
         imagePullPolicy: Always
         name: drivetester
         ports:
