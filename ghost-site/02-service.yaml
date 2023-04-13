@@ -17,14 +17,13 @@ spec:
   - IPv4
   ipFamilyPolicy: SingleStack
   ports:
-  - name: http-drivetest
+  - name: 2368-tcp
     port: 2368
     protocol: TCP
     targetPort: 2368
   selector:
     app: drivetester
     deploymentconfig: drivetester
-    version: v1
   sessionAffinity: None
   type: ClusterIP
 status:
