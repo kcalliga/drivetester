@@ -28,7 +28,6 @@ spec:
     metadata:
       annotations:
         openshift.io/generated-by: OpenShiftWebConsole
-        sidecar.istio.io/inject: 'true'
       creationTimestamp: null
       labels:
         app: drivetester
