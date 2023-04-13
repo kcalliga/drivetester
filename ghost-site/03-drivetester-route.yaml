@@ -11,9 +11,9 @@ metadata:
   name: drivetester
   namespace: drivetester
 spec:
-  host: drivetester.us
+  host: drivetester
   port:
-    targetPort: http-drivetest
+    targetPort: 2368-tcp
   to:
     kind: Service
     name: drivetester
