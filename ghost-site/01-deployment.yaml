@@ -32,6 +32,9 @@ spec:
         deploymentconfig: drivetester
     spec:
       containers:
+      - env:
+        - name: url
+          value: https://drivetester.us
         image: ghost:5.8.2
         imagePullPolicy: Always
         name: drivetester
