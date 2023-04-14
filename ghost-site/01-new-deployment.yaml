@@ -35,7 +35,7 @@ spec:
       - envFrom:
         - secretRef:
             name: drivetester-content-env
-        image: docker.io/ghost:5.25
+        image: docker.io/ghost:5.8.2
         imagePullPolicy: Always
         name: drivetester
         ports:
